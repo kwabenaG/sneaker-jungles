@@ -146,6 +146,6 @@ ACCOUNT_SIGNUP_FORM_CLASS = 'accounts.forms.SignUpForm'  # custom signup form in
 
 LOGIN_REDIRECT_URL = 'homepage'
 
-EMAIL_BACKEND = 'django.core.mail.backends.mail.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # add mail account here

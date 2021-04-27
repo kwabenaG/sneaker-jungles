@@ -12,7 +12,6 @@ def create_user_profile(request, *args, **kwargs):
     user = kwargs['user']
     user_profile = UserProfile(user_created=user)
     user_profile.save()
-    print(user_profile)
     return user_profile
 
 
